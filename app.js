@@ -25,8 +25,6 @@ function convertToWord(letter){
 
 
 
-
-
 function win (userChoice,computerChoice){
     console.log('WIN');
     userScore ++;

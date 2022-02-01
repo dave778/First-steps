@@ -7,3 +7,7 @@ Thisis also my first project using Git.
 Known issues. 
 
 I am unable to seperate all three of the images for rock, scissors, and paper. When one clicks on the paper icon, there are three outcomes at once. 
+
+
+
+Any help is welcome. 

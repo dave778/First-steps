@@ -21,27 +21,27 @@
     </div>
 
     <div class ='result'>
-        <p>Paper covers rock. you win!</p>
+        <p>Select your choice</p>
     </div>
 
     <div class = 'choices'>
 
-        <div class = 'choice' id = 'r'>
+        <div class = 'choice'>
             
-            <img src="images/rock.png" alt="">
+            <img src="images/rock.png" alt="" id="r" onClick="game(this.id)" />
 
-        <div class = 'choice' id = 's'>
+        <div class = 'choice'>
 
-            <img src="images/scissors.png" alt="">
+            <img src="images/scissors.png" alt="" id="s" onClick="game(this.id)" />
 
-        <div class = 'choice' id = 'p'>
+        <div class = 'choice'>
 
-            <img src="images/paper.png" alt="">
+            <img src="images/paper.png" alt="" id="p" onClick="game(this.id)" />
         </div>
     </div>
 
 <p id = 'action-message'>Make a choice.</p>
-<script src ='app.js'></script>
+<script src ='app4.js'></script>
 
 </body>
 </html>
